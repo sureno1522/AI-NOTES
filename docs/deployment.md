@@ -49,21 +49,15 @@ If your model differs from `llama3`, update `OLLAMA_MODEL` in `.env`.
 
 ## 4. Run the app
 
-Launch the Streamlit UI:
+Launch the Streamlit UI locally:
 
 ```bash
-streamlit run ui/streamlit_app.py
-```
-
-Or, use the root entrypoint:
-
-```bash
-python streamlit_app.py
+streamlit run streamlit_app.py
 ```
 
 Then open the browser URL shown in the terminal.
 
-> Note: This repository is a Streamlit app. Use Streamlit Community Cloud or another Streamlit-friendly host for deployment.
+> This repository is a Streamlit app. For production deployment, use Streamlit Community Cloud.
 
 ## 5. Ingest notes
 

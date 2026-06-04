@@ -104,17 +104,17 @@ The app is built around a RAG pipeline and agent workflow:
 
 ## Deployment
 
-This repository contains a Streamlit application. Use Streamlit Community Cloud or another Streamlit-friendly host for deployment.
+This repository contains a Streamlit application. The recommended deployment target is Streamlit Community Cloud.
 
 - For local development, install dependencies with `pip install -r requirements.txt` and run:
 
 ```bash
-streamlit run ui/streamlit_app.py
+streamlit run streamlit_app.py
 ```
 
-- The root entrypoint `streamlit_app.py` is also available for simpler deployment configuration.
+- Deploy on Streamlit Community Cloud using the root app file `streamlit_app.py`.
 
-See `docs/deployment.md` for local deployment instructions.
+See `docs/streamlit_cloud.md` for detailed deployment instructions.
 
 ## Troubleshooting
 
