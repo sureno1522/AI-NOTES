@@ -104,7 +104,17 @@ The app is built around a RAG pipeline and agent workflow:
 
 ## Deployment
 
-See `docs/deployment.md` for deployment instructions.
+This repository contains a Streamlit application that is intended to run locally or on a Streamlit-compatible host.
+
+- For local development, install dependencies with `pip install -r requirements.txt` and run:
+
+```bash
+streamlit run ui/streamlit_app.py
+```
+
+- Vercel deployment is configured to use a minimal Flask placeholder app in `main.py` because Streamlit cannot run directly on Vercel.
+
+See `docs/deployment.md` for local deployment instructions.
 
 ## Troubleshooting
 

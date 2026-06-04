@@ -57,6 +57,8 @@ streamlit run ui/streamlit_app.py
 
 Then open the browser URL shown in the terminal.
 
+> Note: This repository is a Streamlit app. Vercel is not a recommended deployment platform for the full Streamlit experience, so `main.py` is provided as a minimal placeholder for Vercel.
+
 ## 5. Ingest notes
 
 1. Upload PDF, PPTX, DOCX, or TXT files in the sidebar.
