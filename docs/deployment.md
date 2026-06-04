@@ -55,9 +55,15 @@ Launch the Streamlit UI:
 streamlit run ui/streamlit_app.py
 ```
 
+Or, use the root entrypoint:
+
+```bash
+python streamlit_app.py
+```
+
 Then open the browser URL shown in the terminal.
 
-> Note: This repository is a Streamlit app. Vercel is not a recommended deployment platform for the full Streamlit experience, so `main.py` is provided as a minimal placeholder for Vercel.
+> Note: This repository is a Streamlit app. Use Streamlit Community Cloud or another Streamlit-friendly host for deployment.
 
 ## 5. Ingest notes
 
