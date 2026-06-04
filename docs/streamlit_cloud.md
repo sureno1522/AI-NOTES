@@ -25,15 +25,20 @@ The root `streamlit_app.py` file is provided to make deployment simpler.
 
 Set the following secrets in the Streamlit Cloud app settings:
 
-- `OLLAMA_HOST`
-- `OLLAMA_MODEL`
-- `OLLAMA_API_KEY`
 - `GEMINI_HOST`
 - `GEMINI_MODEL`
 - `GEMINI_API_KEY`
 - `EMBEDDING_MODEL`
 - `VECTOR_STORE_PATH`
 - `TOP_K`
+
+If you want to use a local Ollama server for local testing only, set:
+
+- `OLLAMA_HOST`
+- `OLLAMA_MODEL`
+- `OLLAMA_API_KEY`
+
+> Do not set `OLLAMA_HOST` to `http://127.0.0.1:11434` in Streamlit Cloud. That will fail because the cloud app cannot reach your local machine.
 
 ## Notes
 

@@ -39,10 +39,12 @@ copy .env.example .env
 
 Update `.env` for your desired backend:
 
-- `OLLAMA_HOST`, `OLLAMA_MODEL`, `OLLAMA_API_KEY` for local Ollama
-- `GEMINI_HOST`, `GEMINI_MODEL`, `GEMINI_API_KEY` for Gemini
+- `OLLAMA_HOST`, `OLLAMA_MODEL`, `OLLAMA_API_KEY` for local Ollama (local only)
+- `GEMINI_HOST`, `GEMINI_MODEL`, `GEMINI_API_KEY` for Gemini (recommended for cloud deployment)
 
 > Do not commit your `.env` file or any secret keys to source control.
+
+> Important: Streamlit Community Cloud cannot connect to a local Ollama server. Use Gemini or another remote LLM service for deployment.
 
 ### 3. Start the app
 
