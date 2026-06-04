@@ -12,5 +12,8 @@ dependencies = [
     "Flask>=2.3.0",
 ]
 
+[tool.setuptools]
+packages = { find = { include = ["agents*", "models*", "rag*", "ui*", "utils*", "vectorstore*"] } }
+
 [tool.vercel]
 entrypoint = "main.py"
