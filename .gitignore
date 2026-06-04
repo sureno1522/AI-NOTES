@@ -4,4 +4,3 @@ __pycache__/
 *.faiss*
 .env
 data/faiss_store*
-.streamlit/
